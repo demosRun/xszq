@@ -1,0 +1,305 @@
+<template>
+  <div class="LbWMGSGs">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide card">
+          <div class="swiper-item" >
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="swiper-item" >
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="swiper-item" >
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+            <div class="logo-item">
+              <a href="#">
+                <img src="@|logo.png|"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pagination"></div>
+    <!-- <img src="http://www.people.com.cn/img/2016people/images/left_b.png" class="swiper-button swiper-button-next" o-tap="swiperNext"/>
+    <img src="http://www.people.com.cn/img/2016people/images/left_b.png" class="swiper-button swiper-button-prev" o-tap="swiperPrev"/> -->
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      const cont = this.$el.getElementsByClassName('swiper-container')[0]
+      this.data.swiper = new Swiper(cont, {
+        // "loop": true,
+        "autoplay":3000,
+        pagination: this.query('.pagination')
+      })
+    },
+    data: {
+      swiper: null,
+    },
+    swiperNext: function () {
+      // console.log('swiperNext')
+      this.data.swiper.swipeNext()
+    },
+    swiperPrev: function () {
+      // console.log('swiperPrev')
+      this.data.swiper.swipePrev()
+    }
+  }
+</script>
+
+<style lang="less">
+  .LbWMGSGs {
+    width: 1000px;
+    position: relative;
+    .swiper-container {
+      height: 190px;
+      width: 960px;
+      position: relative;
+      .swiper-item {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+    }
+    .swiper-wrapper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .LbWMGSGs {
+    position: relative;
+    .swiper-button {
+      height: 30px;
+      position: absolute;
+      top: 0;
+      bottom: 30px;
+      margin: auto;
+      cursor: pointer;
+      z-index: 999;
+    }
+    .swiper-button-next {
+      right: 0;
+      transform: rotate(180deg);
+    }
+    .swiper-button-prev {
+      left: 0;
+    }
+  }
+  a {
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    img {
+      height: 40%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .image-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    width: 190px;
+    margin: 0 auto;
+  }
+  .swiper-slide {
+    position: relative;
+  }
+  .logo-item {
+    float: left;
+    width: 176px;
+    height: 70px;
+    box-shadow: 1px 1px 5px #ccc;
+    margin: 8px;
+    border-radius: 5px;
+    position: relative;
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    .swiper-pagination-switch {
+      width: 30px;
+      height: 6px;
+      background-color: #e5e5e5;
+      display: block;
+      border-radius: 3px;
+      margin: 0 10px;
+    }
+    .swiper-visible-switch {
+      background-color: #2e7be4;
+    }
+  }
+</style>

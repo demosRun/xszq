@@ -1,0 +1,442 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/d998fae6830db2ac.owo")
+  img.main-bg(src="@|bg.jpg|")
+  .conn-box.w1000
+    .main-text-box
+      h1
+        a(href="#" target="_blank") 第十五届中国北京国际文化产业博览会在京开幕
+      h4
+        a(href="#" target="_blank") 会议分析研究当前经济形势，部署下半年经济工作关于当前经济形势，中央作出最新判断和部署望海楼
+    //- 轮播图
+    plug(_name="module149" _src="https://template.owo.ink/c7d6fb9cd44a7b01.owo")
+    //- 新闻列表
+    ul.news-list
+      li
+        a(href="#" target="_blank") 2015年5月21日，习近平总书记就人民日报海外版创刊30周年作出重要批示。
+      li
+        a(href="#" target="_blank") 2016年2月19日，习近平总书记主持召开党的新闻舆论工作座谈会并到人民日报社调研。
+      li
+        a(href="#" target="_blank") 2018年6月15日，人民日报迎来创刊70周年,习近平总书记致信祝贺。
+      li
+        a(href="#" target="_blank") 2019年1月25日，习近平总书记带领中央政治局同志来到人民日报社，就全媒体时代和媒体融合发展举行第十二次集体学习。
+    .title.title-1
+      h1 全媒体区
+      h4 ALL MEDIA AREA
+    plug(_name="module4" _src="https://template.owo.ink/1cd5639a32eae500.owo")
+    .title.title-1
+      h1 视频区
+      h4 Video area
+    .text-info
+      p 今天的人民日报社已由一份报纸，转变为全媒体形态的“人民媒体方阵”<br>拥有<span style="color: #0e4fa7">报、刊、网、端、微、屏</span>等10多种载体。
+      .video-box
+    .title.title-1
+      h1 展示区
+      h4 Exhibition area
+    ul.card-box.clear
+      li
+        a(href="#" target="_blank")
+          img(src="@|show.png|")
+          h1 AI虚拟主播
+          p 详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情
+      li
+        a(href="#" target="_blank")
+          img(src="@|show.png|")
+          h1 AI虚拟主播
+          p 详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情
+      li
+        a(href="#" target="_blank")
+          img(src="@|show.png|")
+          h1 AI虚拟主播
+          p 详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情
+    .title.title-1
+      h1 媒体融合发展区
+      h4 Media Integration Development Zone
+    .menu-box.clear
+      ul.left.fl
+        li
+          .text 气味王国
+          .edit
+            img(src="@|show.png|")
+            h1 AI虚拟主播
+            p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
+        li
+          .text 妙笔科技
+          .edit
+            img(src="@|show.png|")
+            h1 AI虚拟主播
+            p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
+        li
+          .text AI虚拟主播
+          .edit
+            img(src="@|show.png|")
+            h1 AI虚拟主播
+            p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
+        li
+          .text 气味王国
+          .edit
+            img(src="@|show.png|")
+            h1 AI虚拟主播
+            p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
+        li
+          .text 妙笔科技
+          .edit
+            img(src="@|show.png|")
+            h1 AI虚拟主播
+            p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
+        li
+          .text AI虚拟主播
+          .edit
+            img(src="@|show.png|")
+            h1 AI虚拟主播
+            p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
+        li
+          .text 气味王国
+          .edit
+            img(src="@|show.png|")
+            h1 AI虚拟主播
+            p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
+      .right.fl
+  .app-show-box
+    .w1100
+      .title.title-2
+        h1 应用展示区
+        h4 Application Exhibition Area
+      .app-show.clear
+        .item.main.fl
+          img(src="@|show.png|")
+          h2 “人民优选”综合消费服务平台
+          p 详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情...
+        .item.fl
+          img(src="@|show.png|")
+          h2 “人民优选”综合消费服务平台
+          p 详情详情详情详情详情详详情详情详情详情详情详情详情详情详情详情详情详情详情...
+          .line
+          h2 “人民优选”综合消费服务平台
+          h3 2020.1.26
+          h2 “人民优选”综合消费服务平台
+          h3 2020.1.26
+          .more
+            a(href="#") 更多
+        .item.fl
+          img(src="@|show.png|")
+          h2 “人民优选”综合消费服务平台
+          p 详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详详情...
+          .line
+          h2 “人民优选”综合消费服务平台
+          h3 2020.1.26
+          h2 “人民优选”综合消费服务平台
+          h3 2020.1.26
+          .more
+            a(href="#") 更多
+  .w1000
+    .title.title-1
+      h1 新闻区
+      h4 Application Exhibition Area
+    .news-box-2.clear
+      .news-item.fl
+        .title-bar-2
+          h1 评论观察
+          .more
+            a(href="#") 更多
+        ul
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      .news-item.fr
+        .title-bar-2
+          h1 评论观察
+          .more
+            a(href="#") 更多
+        ul
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+          li
+            a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+  plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      this.query('.menu-box .right').innerHTML = this.query('.menu-box .left .edit').innerHTML
+      this.query('.menu-box .left li').classList.add('active')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main-bg {
+  width: 100%;
+  height: auto;
+}
+.conn-box {
+  margin-top: -60px;
+}
+.main-text-box {
+  text-align: center;
+  color: #4e4e4e;
+  a {
+    color: #4e4e4e;
+  }
+  a:hover {
+    color: #e60012;
+    text-decoration: none;
+  }
+  h1 {
+    line-height: 70px;
+  }
+  h4 {
+    font-weight: normal;
+    line-height: 25px;
+  }
+}
+.news-list {
+  margin-top: 40px;
+  li {
+    background-image: url("@|doit.png|");
+    background-repeat: no-repeat;
+    line-height: 40px;
+    font-size: 18px;
+    padding-left: 30px;
+    background-position: center left;
+    height: 40px;
+    overflow: hidden;
+  }
+  a {
+    color: #000000;
+  }
+  a:hover {
+    color: #e60012;
+    text-decoration: none;
+  }
+}
+.conn, .title, .text-info, .menu-box, .card-box, .app-show, .news-box-2 {
+  margin-top: 40px;
+}
+.title-1 {
+  background-image: url('@|title-1.png|')
+}
+.title {
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "STSong";
+  color: #0d438d;
+  h1 {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  h4 {
+    line-height: 25px;
+  }
+}
+.text-info {
+  p {
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+.edit {
+  display: none;
+}
+.menu-box {
+  .left {
+    width: 220px;
+    height: 500px;
+    background-color: #2e7be4;
+    padding: 30px 0px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 7px;
+  }
+  li {
+    line-height: 73px;
+    background-image: url('@|line.png|');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    font-family: "STSong";
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  .active {
+    background-color: #34aef9;
+    background-image: none;
+  }
+  .right {
+    width: 740px;
+    height: 560px;
+    margin-left: 40px;
+    border-radius: 10px;
+    overflow: auto;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 7px;
+    }
+    h1 {
+      color: #484848;
+      line-height: 45px;
+      font-size: 28px;
+    }
+    p {
+      text-indent: 2em;
+      font-size: 15px;
+      color: #9d9d9d;
+      line-height: 1.7;
+    }
+    a {
+      color: #2e7be4;
+    }
+  }
+}
+.card-box {
+  width: 1030px;
+  li {
+    width: 310px;
+    float: left;
+    height: 360px;
+    background-image: url('@|more.png|');
+    background-repeat: no-repeat;
+    background-position: 10px bottom;
+    margin-right: 33px;
+    img {
+      display: block;
+      width: 100%;
+      height: 180px;
+    }
+    h1 {
+      color: #484848;
+      font-size: 22px;
+      line-height: 48px;
+    }
+    p {
+      color: #9d9d9d;
+      font-size: 16px;
+      line-height: 28px;
+      text-indent: 2em;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
+.video-box {
+  width: 1000px;
+  height: 530px;
+}
+.app-show-box {
+  padding: 20px 0;
+  margin-top: 60px;
+  padding-bottom: 120px;
+  background-color: #0662fd;
+  background-image: url('@|box-bg.png|');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  .item.main {
+    margin-left: 0;
+    width: 410px;
+    img {
+      width: 410px;
+      height: 250px;
+    }
+  }
+  .item {
+    width: 310px;
+    overflow: hidden;
+    color: white;
+    margin-left: 35px;
+    a, img {
+      display: block;
+      color: white;
+    }
+    img {
+      width: 310px;
+      height: 95px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      line-height: 36px;
+      font-size: 18px;
+      font-weight: normal;
+    }
+    p {
+      text-indent: 2em;
+      line-height: 24px;
+    }
+    .line {
+      background-image: url('@|line-2.png|');
+      height: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    h3 {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .more {
+      border: 1px solid white;
+      width: 50px;
+      text-align: center;
+      line-height: 24px;
+      margin: 5px 0;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+}
+.title-2 {
+  color: white;
+  background-image: url('@|title-2.png|')
+}
+.title-bar-2 {
+  position: relative;
+  h1 {
+    color: #0e4fa7;
+    font-size: 25px;
+    font-family: "STSong";
+  }
+  .more {
+    position: absolute;
+    right: 0;
+    top: 7px;
+  }
+}
+.news-item {
+  ul {
+    margin-top: 15px;
+  }
+  li {
+    font-size: 16px;
+    line-height: 30px;
+    color: #454545;
+    a {
+      color: #454545;
+    }
+  }
+}
+</style>
