@@ -54,43 +54,43 @@
       h4 Media Integration Development Zone
     .menu-box.clear
       ul.left.fl
-        li
+        li(o-mouseenter="changeActive")
           .text 气味王国
           .edit
             img(src="@|show.png|")
-            h1 AI虚拟主播
+            h1 气味王国
             p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
-        li
+        li(o-mouseenter="changeActive")
           .text 妙笔科技
           .edit
             img(src="@|show.png|")
-            h1 AI虚拟主播
+            h1 妙笔科技
             p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
-        li
+        li(o-mouseenter="changeActive")
           .text AI虚拟主播
           .edit
             img(src="@|show.png|")
             h1 AI虚拟主播
             p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
-        li
+        li(o-mouseenter="changeActive")
           .text 气味王国
           .edit
             img(src="@|show.png|")
-            h1 AI虚拟主播
+            h1 气味王国
             p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
-        li
+        li(o-mouseenter="changeActive")
           .text 妙笔科技
           .edit
             img(src="@|show.png|")
             h1 AI虚拟主播
             p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
-        li
+        li(o-mouseenter="changeActive")
           .text AI虚拟主播
           .edit
             img(src="@|show.png|")
             h1 AI虚拟主播
             p 手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度，手机用户已超过PC用户，每部手机都有浏览器，为手机端定制展现效果更好的手机门户，大大提升用户体验、提高用户粘度<a href="#">【阅读】</a>
-        li
+        li(o-mouseenter="changeActive")
           .text 气味王国
           .edit
             img(src="@|show.png|")
@@ -178,6 +178,13 @@
     created: function () {
       this.query('.menu-box .right').innerHTML = this.query('.menu-box .left .edit').innerHTML
       this.query('.menu-box .left li').classList.add('active')
+    },
+    changeActive: function () {
+      this.queryAll('.menu-box .left li').forEach(element => {
+        element.classList.remove('active')
+      });
+      this.query('.menu-box .right').innerHTML = this.$target.querySelector('.edit').innerHTML
+      this.$target.classList.add('active')
     }
   }
 </script>
@@ -189,7 +196,7 @@
   height: auto;
 }
 .conn-box {
-  margin-top: -60px;
+  margin-top: -80px;
 }
 .main-text-box {
   text-align: center;
@@ -203,6 +210,7 @@
   }
   h1 {
     line-height: 70px;
+    font-size: 38px;
   }
   h4 {
     font-weight: normal;
@@ -229,7 +237,7 @@
     text-decoration: none;
   }
 }
-.conn, .title, .text-info, .menu-box, .card-box, .app-show, .news-box-2 {
+.conn, .title, .text-info, .menu-box, .card-box, .app-show, .LbWMGSGs {
   margin-top: 40px;
 }
 .title-1 {
@@ -241,6 +249,7 @@
   text-align: center;
   font-family: "STSong";
   color: #0d438d;
+  font-size: 18px;
   h1 {
     font-size: 38px;
     line-height: 50px;
@@ -282,7 +291,8 @@
   }
   .active {
     background-color: #34aef9;
-    background-image: none;
+    background-image: url("@|doit-2.png|");
+    background-position: 20px center;
   }
   .right {
     width: 740px;
@@ -417,16 +427,17 @@
   position: relative;
   h1 {
     color: #0e4fa7;
-    font-size: 25px;
+    font-size: 28px;
     font-family: "STSong";
   }
   .more {
     position: absolute;
     right: 0;
-    top: 7px;
+    top: 9px;
   }
 }
 .news-item {
+  width: 460px;
   ul {
     margin-top: 15px;
   }
@@ -438,5 +449,8 @@
       color: #454545;
     }
   }
+}
+.news-box-2 {
+  margin-top: 60px;
 }
 </style>

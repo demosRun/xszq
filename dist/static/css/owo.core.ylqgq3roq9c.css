@@ -138,8 +138,8 @@ li {
   bottom: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  line-height: 30px;
-  height: 30px;
+  line-height: 45px;
+  height: 45px;
   text-align: center;
   overflow: hidden;
   color: white;
@@ -333,7 +333,7 @@ li {
 }
 
 .conn-box {
-  margin-top: -60px;
+  margin-top: -80px;
 }
 
 .main-text-box {
@@ -352,6 +352,7 @@ li {
 
 .main-text-box h1 {
   line-height: 70px;
+  font-size: 38px;
 }
 
 .main-text-box h4 {
@@ -389,7 +390,8 @@ li {
 .menu-box,
 .card-box,
 .app-show,
-.news-box-2 {
+.LbWMGSGs,
+.video-box {
   margin-top: 40px;
 }
 
@@ -403,6 +405,7 @@ li {
   text-align: center;
   font-family: "STSong";
   color: #0d438d;
+  font-size: 18px;
 }
 
 .title h1 {
@@ -448,7 +451,8 @@ li {
 
 .menu-box .active {
   background-color: #34aef9;
-  background-image: none;
+  background-image: url("../resource/doit-2.png");
+  background-position: 20px center;
 }
 
 .menu-box .right {
@@ -610,14 +614,18 @@ li {
 
 .title-bar-2 h1 {
   color: #0e4fa7;
-  font-size: 25px;
+  font-size: 28px;
   font-family: "STSong";
 }
 
 .title-bar-2 .more {
   position: absolute;
   right: 0;
-  top: 7px;
+  top: 9px;
+}
+
+.news-item {
+  width: 460px;
 }
 
 .news-item ul {
@@ -632,5 +640,9 @@ li {
 
 .news-item li a {
   color: #454545;
+}
+
+.news-box-2 {
+  margin-top: 60px;
 }
 

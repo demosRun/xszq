@@ -62,8 +62,8 @@
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    line-height: 30px;
-    height: 30px;
+    line-height: 45px;
+    height: 45px;
     text-align: center;
     overflow: hidden;
     color: white;
